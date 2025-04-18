@@ -16,8 +16,7 @@ public class StoreInformation {
 
     public StoreInformation() {
     }
-    public StoreInformation(Integer storeId, String storeName, String storeDetail, String storePhoneNumber) {
-        this.storeId = storeId;
+    public StoreInformation(String storeName, String storeDetail, String storePhoneNumber) {
         this.storeName = storeName;
         this.storeDetail = storeDetail;
         this.storePhoneNumber = storePhoneNumber;
