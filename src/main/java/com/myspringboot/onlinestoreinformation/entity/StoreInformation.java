@@ -53,4 +53,14 @@ public class StoreInformation {
     public void setStorePhoneNumber(String storePhoneNumber) {
         this.storePhoneNumber = storePhoneNumber;
     }
+
+    @Override
+    public String toString() {
+        return "StoreInformation{" +
+                "storeId=" + storeId +
+                ", storeName='" + storeName + '\'' +
+                ", storeDetail='" + storeDetail + '\'' +
+                ", storePhoneNumber='" + storePhoneNumber + '\'' +
+                '}';
+    }
 }
